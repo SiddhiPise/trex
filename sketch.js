@@ -77,6 +77,7 @@ function draw() {
   
     if(keyDown("space") && trex.y >= 159) {
       trex.velocityY = -12;
+      jumpSound.play();
     }
   
     trex.velocityY = trex.velocityY + 0.8
